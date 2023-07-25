@@ -1,0 +1,32 @@
+{
+  "name": "dark-color-theme",
+  "displayName": "R santtos",
+  "description": "Very fun dark theme for devops",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "keywords": [
+    "dark",
+    "theme",
+    "fine",
+    "elegant"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "sunsplash dark theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-theme-color.json"
+      }
+    ]
+  }
+}
